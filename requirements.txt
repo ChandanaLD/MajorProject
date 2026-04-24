@@ -1,0 +1,25 @@
+# Requirements for DeepFake-Detection
+# Note: PyTorch and PyTorch Geometric (torch-geometric) often require
+# specific wheels that match your CUDA / CPU environment. Install PyTorch
+# first using the instructions at https://pytorch.org/ then install
+# torch-geometric following its guide (https://pytorch-geometric.readthedocs.io/).
+# Example (CPU-only) before installing torch-geometric:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+# Core ML libs
+torch>=1.12
+torchvision
+
+# Graphs (PyG). See PyG docs for correct install for your PyTorch/CUDA:
+torch-geometric
+
+# Utilities / app
+numpy
+opencv-python
+streamlit
+mtcnn
+matplotlib
+
+# Optional (helpful during development):
+# Pillow  # usually pulled in by torchvision
+# tqdm
