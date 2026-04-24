@@ -65,4 +65,4 @@ Model optimization for faster inference
 
 👩‍💻 Author
 
-Sanjana K
+Chandana L D
